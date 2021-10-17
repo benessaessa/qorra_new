@@ -1,0 +1,87 @@
+.btnLogin{
+    color: white;
+    background-color: #4f69ff;
+}
+.btnLogin:hover{
+    color: white;
+    background: #3E57E3;
+    box-shadow: 0 4px 4px 0 rgb(25 35 37 / 22%);
+}
+.linkColor{
+color: #4f69ff;
+}
+.loginSection{
+    padding-top: 4.8rem ;
+    background-color:#f7f8fe;
+}
+.loginSection h1{
+    padding-top: 2.5rem;
+    padding-bottom: 0.4rem;
+    font-weight: 900;
+}
+.btnGoogle{
+    border: solid 1px #ede8e9;
+    color: #18191a;
+}
+.loginSection .card{
+    border-radius: 18px;
+    border: solid 1px #f2f2f2;
+}
+.imgRegister {
+    transform: scaleX(-1);
+}
+.newCheckbox .custom-control-input {
+    border: 1px solid transparent;
+    text-align: right;
+}
+.modal-backdrop {
+    z-index: 100000 !important;
+}
+
+.modal {
+    z-index: 100001 !important;
+}
+.newCheckbox .custom-control-input input {
+    float: right;
+}
+.input-group-text,.newInputGroup input{
+    border-radius: 0;
+}
+@media screen and (min-width:700px){
+    .loginSection{
+        padding-right: 5.5%;
+    }
+    .navbar,.bottomFooter{
+        padding-left: 5.5% !important;
+        padding-right: 5.5% !important;
+    }
+    .bgWhite{
+        background-color: white;
+    }
+    .imgLogin{
+        padding-top: 6%;
+    }
+    .imgRegister{
+        padding-top: 12%;
+    }
+}
+@media screen and (max-width:500px){
+    .loginSection{
+        background-color: white;
+    }
+    .loginSection h1{
+        padding-right: 1rem;
+    }
+}
+@media screen and (max-width:320px){
+    .newCheckbox button{
+        font-size: 14px;
+    }
+    .newCheckbox .custom-control-label{
+        font-size: 14px;
+        padding-top: 1px;
+    }
+    .card-body .btnFace{
+        padding-left: 0;
+    }
+}
